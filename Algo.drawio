@@ -1,0 +1,171 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0" version="28.0.5">
+  <diagram name="Страница — 1" id="eutYVmF0UhjZcbA379ah">
+    <mxGraphModel dx="2063" dy="671" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="eh1Yxu3875X3WRmvF5_Q-9" value="" style="rounded=0;whiteSpace=wrap;html=1;perimeterSpacing=3;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="340" y="1260" width="780" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="fk-IlBcV5XlrWV7A9GBg-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fk-IlBcV5XlrWV7A9GBg-4" target="rToN5sMCc1p1nP9UZkDb-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fk-IlBcV5XlrWV7A9GBg-4" value="" style="rounded=0;whiteSpace=wrap;html=1;perimeterSpacing=3;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="370" y="1530" width="246" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="rToN5sMCc1p1nP9UZkDb-24" value="" style="rounded=0;whiteSpace=wrap;html=1;perimeterSpacing=3;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="750" y="1455" width="260" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="rToN5sMCc1p1nP9UZkDb-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="rToN5sMCc1p1nP9UZkDb-6" target="rToN5sMCc1p1nP9UZkDb-17" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="690" y="1405" />
+              <mxPoint x="690" y="1370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rToN5sMCc1p1nP9UZkDb-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="rToN5sMCc1p1nP9UZkDb-6" target="rToN5sMCc1p1nP9UZkDb-10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="690" y="1484.9999999999998" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="690" y="1405" />
+              <mxPoint x="690" y="1700" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rToN5sMCc1p1nP9UZkDb-6" value="" style="rounded=0;whiteSpace=wrap;html=1;perimeterSpacing=3;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="370" y="1315" width="246" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="rToN5sMCc1p1nP9UZkDb-1" value="Soft" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="490" y="1340" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rToN5sMCc1p1nP9UZkDb-2" value="Hard" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="490" y="1400" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rToN5sMCc1p1nP9UZkDb-3" value="Soft Clustering" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="490" y="1555" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rToN5sMCc1p1nP9UZkDb-8" value="Bayesian E Step" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;" parent="1" vertex="1">
+          <mxGeometry x="370" y="1315" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rToN5sMCc1p1nP9UZkDb-10" value="" style="rounded=0;whiteSpace=wrap;html=1;perimeterSpacing=3;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="750" y="1595" width="270" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="rToN5sMCc1p1nP9UZkDb-11" value="Moments M step" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;" parent="1" vertex="1">
+          <mxGeometry x="750" y="1595" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rToN5sMCc1p1nP9UZkDb-13" value="Method of&amp;nbsp; Moments" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="770" y="1645" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fk-IlBcV5XlrWV7A9GBg-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;" parent="1" source="rToN5sMCc1p1nP9UZkDb-14" target="rToN5sMCc1p1nP9UZkDb-15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rToN5sMCc1p1nP9UZkDb-14" value="L-moments" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="890" y="1645" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rToN5sMCc1p1nP9UZkDb-15" value="TL-moments" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="890" y="1725" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rToN5sMCc1p1nP9UZkDb-16" value="LQ-moments" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="770" y="1725" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rToN5sMCc1p1nP9UZkDb-17" value="" style="rounded=0;whiteSpace=wrap;html=1;perimeterSpacing=3;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="750" y="1295" width="340" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="rToN5sMCc1p1nP9UZkDb-18" value="Maximization M step" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;" parent="1" vertex="1">
+          <mxGeometry x="750" y="1295" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rToN5sMCc1p1nP9UZkDb-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="rToN5sMCc1p1nP9UZkDb-19" target="rToN5sMCc1p1nP9UZkDb-22" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rToN5sMCc1p1nP9UZkDb-19" value="Q-function" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="940" y="1315" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rToN5sMCc1p1nP9UZkDb-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="rToN5sMCc1p1nP9UZkDb-20" target="rToN5sMCc1p1nP9UZkDb-21" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rToN5sMCc1p1nP9UZkDb-20" value="MLE" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="800" y="1485" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rToN5sMCc1p1nP9UZkDb-21" value="CME" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="800" y="1385" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rToN5sMCc1p1nP9UZkDb-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="rToN5sMCc1p1nP9UZkDb-22" target="rToN5sMCc1p1nP9UZkDb-21" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rToN5sMCc1p1nP9UZkDb-22" value="CM" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="940" y="1385" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rToN5sMCc1p1nP9UZkDb-35" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Soft&lt;/h1&gt;&lt;p&gt;&lt;b&gt;Входные данные&lt;/b&gt;:&lt;/p&gt;&lt;p&gt;Выборка, смесь с начальными данными&lt;/p&gt;&lt;p&gt;&lt;b&gt;Выходные данные&lt;/b&gt;:&lt;/p&gt;&lt;p&gt;Выборка, смесь, матрица Z&lt;/p&gt;&lt;p&gt;&lt;b&gt;Особенности&lt;/b&gt;:&lt;/p&gt;&lt;p&gt;Вычисляет &lt;i&gt;нечёткую &lt;/i&gt;матрицу Z, т.е. её значения лежат в промежутке [0,1]&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-370" y="810" width="230" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="rToN5sMCc1p1nP9UZkDb-49" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Hard&lt;/h1&gt;&lt;p&gt;&lt;b&gt;Входные данные&lt;/b&gt;:&lt;/p&gt;&lt;p&gt;Выборка, смесь с начальными данными&lt;/p&gt;&lt;p&gt;&lt;b&gt;Выходные данные&lt;/b&gt;:&lt;/p&gt;&lt;p&gt;Выборка, смесь, матрица Z&lt;/p&gt;&lt;p&gt;&lt;b&gt;Особенности&lt;/b&gt;:&lt;/p&gt;&lt;p&gt;Вычисляет &lt;i&gt;жёсткую&amp;nbsp;&lt;/i&gt;матрицу Z, т.е. её значения либо 0 либо 1&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-370" y="1050" width="230" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="rToN5sMCc1p1nP9UZkDb-51" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Method of Moments&lt;/h1&gt;&lt;p&gt;&lt;b&gt;Входные данные&lt;/b&gt;:&lt;/p&gt;Выборка, смесь, матрица Z&lt;p&gt;&lt;b&gt;Выходные данные&lt;/b&gt;:&lt;/p&gt;&lt;p&gt;Выборка, смесь&lt;/p&gt;&lt;p&gt;&lt;b&gt;Особенности&lt;/b&gt;:&lt;/p&gt;&lt;p&gt;Вычисляет моменты каждой компоненты и с помощью них считает параметры.&lt;/p&gt;&lt;p&gt;Параметры могут выражаться из моментов &lt;i&gt;явно&lt;/i&gt;, а могут находится только с помощью &lt;i&gt;численных методов&lt;/i&gt;&lt;/p&gt;&lt;p&gt;Не все распределения поддерживают этот метод (моменты выражаются через интеграл, который может расходиться)&lt;/p&gt;&lt;p&gt;Некоторые распределения могут поддерживать метод при одних параметрах, и не поддерживать при других.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-110" y="810" width="230" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="rToN5sMCc1p1nP9UZkDb-52" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;L-Moments&lt;/h1&gt;&lt;p&gt;&lt;b&gt;Входные данные&lt;/b&gt;:&lt;/p&gt;Выборка, смесь, матрица Z&lt;p&gt;&lt;b&gt;Выходные данные&lt;/b&gt;:&lt;/p&gt;&lt;p&gt;Выборка, смесь&lt;/p&gt;&lt;p&gt;&lt;b&gt;Особенности&lt;/b&gt;:&lt;/p&gt;&lt;p&gt;Вычисляет L-моменты каждой компоненты и с помощью них считает параметры.&lt;/p&gt;&lt;p&gt;Параметры могут выражаться из моментов &lt;i&gt;явно&lt;/i&gt;, а могут находится только с помощью &lt;i&gt;численных методов&lt;/i&gt;&lt;/p&gt;&lt;p&gt;Не все распределения поддерживают этот метод (моменты выражаются через интеграл, который может расходиться)&lt;/p&gt;&lt;p&gt;Некоторые распределения могут поддерживать метод при одних параметрах, и не поддерживать при других.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="635" y="810" width="230" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="rToN5sMCc1p1nP9UZkDb-53" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;TL-Moments&lt;/h1&gt;&lt;p&gt;&lt;b&gt;Входные данные&lt;/b&gt;:&lt;/p&gt;Выборка, смесь, матрица Z&lt;p&gt;&lt;b&gt;Выходные данные&lt;/b&gt;:&lt;/p&gt;&lt;p&gt;Выборка, смесь&lt;/p&gt;&lt;p&gt;&lt;b&gt;Особенности&lt;/b&gt;:&lt;/p&gt;&lt;p&gt;Вычисляет TL-моменты каждой компоненты и с помощью них считает параметры.&lt;/p&gt;&lt;p&gt;Параметры могут выражаться из моментов &lt;i&gt;явно&lt;/i&gt;, а могут находится только с помощью &lt;i&gt;численных методов&lt;/i&gt;&lt;/p&gt;&lt;p&gt;Не все распределения поддерживают этот метод (моменты выражаются через интеграл, который может расходиться)&lt;/p&gt;&lt;p&gt;Некоторые распределения могут поддерживать метод при одних параметрах, и не поддерживать при других.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="390" y="810" width="230" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="rToN5sMCc1p1nP9UZkDb-54" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;LQ-Moments&lt;/h1&gt;&lt;p&gt;&lt;b&gt;Входные данные&lt;/b&gt;:&lt;/p&gt;Выборка, смесь, матрица Z&lt;p&gt;&lt;b&gt;Выходные данные&lt;/b&gt;:&lt;/p&gt;&lt;p&gt;Выборка, смесь&lt;/p&gt;&lt;p&gt;&lt;b&gt;Особенности&lt;/b&gt;:&lt;/p&gt;&lt;p&gt;Вычисляет LQ-моменты каждой компоненты и с помощью них считает параметры.&lt;/p&gt;&lt;p&gt;Параметры могут выражаться из моментов &lt;i&gt;явно&lt;/i&gt;, а могут находится только с помощью &lt;i&gt;численных методов&lt;/i&gt;&lt;/p&gt;&lt;p&gt;Не все распределения поддерживают этот метод (моменты выражаются через интеграл, который может расходиться)&lt;/p&gt;&lt;p&gt;Некоторые распределения могут поддерживать метод при одних параметрах, и не поддерживать при других.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="150" y="810" width="230" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="rToN5sMCc1p1nP9UZkDb-56" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Q-function&lt;/h1&gt;&lt;p&gt;&lt;b&gt;Входные данные&lt;/b&gt;:&lt;/p&gt;&lt;p&gt;Выборка, смесь, матрица Z, оптимизатор&lt;/p&gt;&lt;p&gt;&lt;b&gt;Выходные данные&lt;/b&gt;:&lt;/p&gt;&lt;p&gt;Выборка, смесь&lt;/p&gt;&lt;p&gt;&lt;b&gt;Особенности&lt;/b&gt;:&lt;/p&gt;&lt;p&gt;Подбирает все параметры&amp;nbsp;&lt;span lang=&quot;grc&quot;&gt;&lt;span style=&quot;font-family: palatino linotype, new athena unicode, athena, gentium, code2000, serif; font-size: 105%;&quot;&gt;&lt;b&gt;Θ &lt;/b&gt;&lt;/span&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;font-size: 105%;&quot;&gt;максимизируя Q-функцию.&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;div&gt;Для некоторых распределений возможен подбор параметров АНАЛИТИЧЕСКИ.&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="870" y="620" width="240" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="rToN5sMCc1p1nP9UZkDb-57" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;MLE&lt;/h1&gt;&lt;p&gt;&lt;b&gt;Входные данные&lt;/b&gt;:&lt;/p&gt;&lt;p&gt;Выборка, смесь, оптимизатор&lt;/p&gt;&lt;p&gt;&lt;b&gt;Выходные данные&lt;/b&gt;:&lt;/p&gt;&lt;p&gt;Выборка, смесь&lt;/p&gt;&lt;p&gt;&lt;b&gt;Особенности&lt;/b&gt;:&lt;/p&gt;&lt;p&gt;Подбирает все параметры&amp;nbsp;&lt;span lang=&quot;grc&quot;&gt;&lt;span style=&quot;font-family: palatino linotype, new athena unicode, athena, gentium, code2000, serif; font-size: 105%;&quot;&gt;&lt;b&gt;Θ &lt;/b&gt;&lt;/span&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;font-size: 105%;&quot;&gt;максимизируя истинную функцию правдоподобия&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Не итеративен&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="870" y="900" width="240" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="rToN5sMCc1p1nP9UZkDb-58" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;CM&lt;/h1&gt;&lt;p&gt;&lt;b&gt;Входные данные&lt;/b&gt;:&lt;/p&gt;&lt;p&gt;Выборка, смесь, матрица Z, оптимизатор&lt;/p&gt;&lt;p&gt;&lt;b&gt;Выходные данные&lt;/b&gt;:&lt;/p&gt;&lt;p&gt;Выборка, смесь&lt;/p&gt;&lt;p&gt;&lt;b&gt;Особенности&lt;/b&gt;:&lt;/p&gt;&lt;p&gt;&lt;font&gt;Делим множество параметров&amp;nbsp;&lt;span lang=&quot;grc&quot;&gt;&lt;span style=&quot;font-family: palatino linotype, new athena unicode, athena, gentium, code2000, serif;&quot;&gt;&lt;b&gt;Θ &lt;/b&gt;&lt;/span&gt;&lt;font face=&quot;Helvetica&quot;&gt;на непересекающиеся части&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;span lang=&quot;grc&quot;&gt;&lt;span style=&quot;font-family: palatino linotype, new athena unicode, athena, gentium, code2000, serif;&quot;&gt;&lt;b&gt;Θ&lt;sub&gt;i&lt;/sub&gt;&amp;nbsp;&lt;/b&gt;&lt;/span&gt;&lt;font face=&quot;Helvetica&quot;&gt;получая n штук микро-итераций, каждая из которых соответствует своей части параметров.&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font&gt;&lt;span lang=&quot;grc&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;Для каждой такой части подбираем соответствующие ей параметры, максимизируя Q-функцию, считая параметры остальных частей фиксированными.&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;b&gt;ВАЖНО! &lt;/b&gt;Если зафиксировать часть параметров, то в некоторых случаях остальные параметры смогут быть выведены АНАЛИТИЧЕСКИ! Необходимо это как то поддержать.&lt;/font&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1110" y="760" width="220" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="rToN5sMCc1p1nP9UZkDb-59" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;CME&lt;/h1&gt;&lt;p&gt;&lt;b&gt;Входные данные&lt;/b&gt;:&lt;/p&gt;&lt;p&gt;Выборка, смесь, матрица Z, оптимизатор&lt;/p&gt;&lt;p&gt;&lt;b&gt;Выходные данные&lt;/b&gt;:&lt;/p&gt;&lt;p&gt;Выборка, смесь&lt;/p&gt;&lt;p&gt;&lt;b&gt;Особенности&lt;/b&gt;:&lt;/p&gt;&lt;p&gt;&lt;font&gt;Делим множество параметров&amp;nbsp;&lt;span lang=&quot;grc&quot;&gt;&lt;span style=&quot;font-family: palatino linotype, new athena unicode, athena, gentium, code2000, serif;&quot;&gt;&lt;b&gt;Θ &lt;/b&gt;&lt;/span&gt;&lt;font face=&quot;Helvetica&quot;&gt;на непересекающиеся части&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;span lang=&quot;grc&quot;&gt;&lt;span style=&quot;font-family: palatino linotype, new athena unicode, athena, gentium, code2000, serif;&quot;&gt;&lt;b&gt;Θ&lt;sub&gt;i&lt;/sub&gt;&amp;nbsp;&lt;/b&gt;&lt;/span&gt;&lt;font face=&quot;Helvetica&quot;&gt;получая n штук микро-итераций, каждая из которых соответствует своей части параметров.&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font&gt;&lt;span lang=&quot;grc&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;Для некоторых частей подбираем параметры соответствующие ей, такие, что максимизируют Q-функцию, а для остальных максимизируем L-функцию.&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;b&gt;ВАЖНО! &lt;/b&gt;Если зафиксировать часть параметров, то в некоторых случаях остальные параметры смогут быть выведены АНАЛИТИЧЕСКИ! Необходимо это как то поддержать.&lt;/font&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1340" y="760" width="220" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="fk-IlBcV5XlrWV7A9GBg-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Soft Clastering&lt;/h1&gt;&lt;p&gt;&lt;b&gt;Входные данные&lt;/b&gt;:&lt;/p&gt;&lt;p&gt;Выборка, смесь без данных, кластеризатор&lt;/p&gt;&lt;p&gt;&lt;b&gt;Выходные данные&lt;/b&gt;:&lt;/p&gt;&lt;p&gt;Выборка, смесь&lt;/p&gt;&lt;p&gt;&lt;b&gt;Особенности&lt;/b&gt;:&lt;/p&gt;&lt;p&gt;Кластеризует выборку на k кластеров, где k - число компонент. Вычисляем &lt;i&gt;нечёткую&lt;/i&gt; матрицу Z и далее считаем хорошие начальные для компонент&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-620" y="810" width="240" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="fk-IlBcV5XlrWV7A9GBg-2" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Hard Clastering&lt;/h1&gt;&lt;p&gt;&lt;b&gt;Входные данные&lt;/b&gt;:&lt;/p&gt;&lt;p&gt;Выборка, смесь без данных, кластеризатор&lt;/p&gt;&lt;p&gt;&lt;b&gt;Выходные данные&lt;/b&gt;:&lt;/p&gt;&lt;p&gt;Выборка, смесь&lt;/p&gt;&lt;p&gt;&lt;b&gt;Особенности&lt;/b&gt;:&lt;/p&gt;&lt;p&gt;Кластеризует выборку на k кластеров, где k - число компонент. Вычисляем &lt;i&gt;жёсткую&lt;/i&gt;&amp;nbsp;матрицу Z и далее считаем хорошие начальные для компонент&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-620" y="1085" width="230" height="265" as="geometry" />
+        </mxCell>
+        <mxCell id="fk-IlBcV5XlrWV7A9GBg-5" value="Bayesian Init" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;" parent="1" vertex="1">
+          <mxGeometry x="370" y="1530" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fk-IlBcV5XlrWV7A9GBg-6" value="&lt;div&gt;Hard Clustering&lt;/div&gt;" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="490" y="1620" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="eh1Yxu3875X3WRmvF5_Q-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="eh1Yxu3875X3WRmvF5_Q-1" target="eh1Yxu3875X3WRmvF5_Q-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eh1Yxu3875X3WRmvF5_Q-1" value="" style="rounded=0;whiteSpace=wrap;html=1;perimeterSpacing=3;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="60" y="1465" width="220" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="eh1Yxu3875X3WRmvF5_Q-2" value="DistributionChecker" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="137.5" y="1485" width="125" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="eh1Yxu3875X3WRmvF5_Q-3" value="Breakpointer" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="137.5" y="1555" width="122.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="eh1Yxu3875X3WRmvF5_Q-4" value="Utils" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;" parent="1" vertex="1">
+          <mxGeometry x="60" y="1615" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="eh1Yxu3875X3WRmvF5_Q-5" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;DistributionChecker&lt;/h1&gt;Должен уметь проверять распределения по какому то условию и удалять их между итерациями алгоритма" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-277.5" y="1470" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="eh1Yxu3875X3WRmvF5_Q-6" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Breakpointer&lt;/h1&gt;&lt;div&gt;Класс, останавливающий алгоритм по какому то условию&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-277.5" y="1580" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="eh1Yxu3875X3WRmvF5_Q-7" value="Необходимо поддержать работу нескольких чекеров и брейпоинтеров (выполнять, если все подали сигнал или хотя бы один)" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=17;align=left;spacingTop=0;spacingLeft=12;" parent="1" vertex="1">
+          <mxGeometry x="-277.5" y="1330" width="237.5" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="eh1Yxu3875X3WRmvF5_Q-11" value="&lt;font style=&quot;font-size: 32px;&quot;&gt;Algorithm&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;" parent="1" vertex="1">
+          <mxGeometry x="340" y="1800" width="150" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
