@@ -1,20 +1,20 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0" version="28.0.6">
   <diagram name="Страница — 1" id="dSvKRztRC6dZt_wdVG8Z">
-    <mxGraphModel dx="1726" dy="1657" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4124" dy="2959" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="LavQA8h7Iw4xzgIdedY9-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="LavQA8h7Iw4xzgIdedY9-74" target="LavQA8h7Iw4xzgIdedY9-80" edge="1">
+        <mxCell id="LavQA8h7Iw4xzgIdedY9-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;endFill=0;" parent="1" source="LavQA8h7Iw4xzgIdedY9-74" target="LavQA8h7Iw4xzgIdedY9-80" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LavQA8h7Iw4xzgIdedY9-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="LavQA8h7Iw4xzgIdedY9-74" target="LavQA8h7Iw4xzgIdedY9-100" edge="1">
+        <mxCell id="LavQA8h7Iw4xzgIdedY9-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;" parent="1" source="LavQA8h7Iw4xzgIdedY9-74" target="LavQA8h7Iw4xzgIdedY9-100" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="LavQA8h7Iw4xzgIdedY9-74" value="" style="rounded=0;whiteSpace=wrap;html=1;perimeterSpacing=3;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="460" y="870" width="220" height="190" as="geometry" />
+          <mxGeometry x="74" y="286" width="220" height="190" as="geometry" />
         </mxCell>
         <mxCell id="LavQA8h7Iw4xzgIdedY9-28" value="&lt;div&gt;&amp;lt;&amp;lt;Abstract&amp;gt;&amp;gt;&lt;/div&gt;&lt;div&gt;BaseEstimator&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="797" y="183.5" width="170" height="74" as="geometry" />
+          <mxGeometry x="561" y="-456.5" width="170" height="74" as="geometry" />
         </mxCell>
         <mxCell id="LavQA8h7Iw4xzgIdedY9-31" value="&lt;i&gt;+ fit(X, mixture): mixture&lt;/i&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="LavQA8h7Iw4xzgIdedY9-28" vertex="1">
           <mxGeometry y="40" width="170" height="26" as="geometry" />
@@ -25,13 +25,13 @@
         <mxCell id="LavQA8h7Iw4xzgIdedY9-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;" parent="1" source="LavQA8h7Iw4xzgIdedY9-39" target="LavQA8h7Iw4xzgIdedY9-28" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="880" y="220" />
-              <mxPoint x="880" y="220" />
+              <mxPoint x="644" y="-420" />
+              <mxPoint x="644" y="-420" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="LavQA8h7Iw4xzgIdedY9-39" value="IterativeEstimator" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="800" y="310" width="160" height="124" as="geometry" />
+          <mxGeometry x="564" y="-330" width="160" height="124" as="geometry" />
         </mxCell>
         <mxCell id="LavQA8h7Iw4xzgIdedY9-40" value="&lt;div&gt;- breakpointers: list&lt;/div&gt;&lt;div&gt;- pruners: list&lt;/div&gt;&lt;div&gt;- steps: list&lt;/div&gt;&lt;div&gt;+ context: dict / Context&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="LavQA8h7Iw4xzgIdedY9-39" vertex="1">
           <mxGeometry y="26" width="160" height="64" as="geometry" />
@@ -45,13 +45,13 @@
         <mxCell id="LavQA8h7Iw4xzgIdedY9-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=diamond;endFill=0;endSize=9;" parent="1" source="LavQA8h7Iw4xzgIdedY9-53" target="LavQA8h7Iw4xzgIdedY9-39" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="755" y="470" />
-              <mxPoint x="870" y="470" />
+              <mxPoint x="519" y="-170" />
+              <mxPoint x="634" y="-170" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="LavQA8h7Iw4xzgIdedY9-53" value="&lt;div&gt;&amp;lt;&amp;lt;Abstract&amp;gt;&amp;gt;&lt;/div&gt;&lt;div&gt;EstimatorStep&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="650" y="524" width="210" height="100" as="geometry" />
+          <mxGeometry x="414" y="-116" width="210" height="100" as="geometry" />
         </mxCell>
         <mxCell id="LavQA8h7Iw4xzgIdedY9-123" value="&lt;i&gt;+ availaible_next: list[EstimatorStep]&lt;/i&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="LavQA8h7Iw4xzgIdedY9-53" vertex="1">
           <mxGeometry y="40" width="210" height="26" as="geometry" />
@@ -63,13 +63,13 @@
           <mxGeometry y="74" width="210" height="26" as="geometry" />
         </mxCell>
         <mxCell id="LavQA8h7Iw4xzgIdedY9-69" value="Mixture" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="930" y="452.5" width="57.5" height="15" as="geometry" />
+          <mxGeometry x="694" y="-187.5" width="57.5" height="15" as="geometry" />
         </mxCell>
         <mxCell id="LavQA8h7Iw4xzgIdedY9-75" value="Bayesian Init" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;" parent="1" vertex="1">
-          <mxGeometry x="460" y="870" width="100" height="30" as="geometry" />
+          <mxGeometry x="74" y="286" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="LavQA8h7Iw4xzgIdedY9-76" value="ClusterizeInitializer" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="475" y="922" width="190" height="88" as="geometry" />
+          <mxGeometry x="89" y="338" width="190" height="88" as="geometry" />
         </mxCell>
         <mxCell id="LavQA8h7Iw4xzgIdedY9-130" value="&lt;div&gt;- is_soft: bool = true&lt;/div&gt;&lt;div&gt;- clusterizer&lt;/div&gt;&lt;div&gt;+ labels: list&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="LavQA8h7Iw4xzgIdedY9-76" vertex="1">
           <mxGeometry y="26" width="190" height="54" as="geometry" />
@@ -77,25 +77,25 @@
         <mxCell id="LavQA8h7Iw4xzgIdedY9-78" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="LavQA8h7Iw4xzgIdedY9-76" vertex="1">
           <mxGeometry y="80" width="190" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="LavQA8h7Iw4xzgIdedY9-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="LavQA8h7Iw4xzgIdedY9-80" target="LavQA8h7Iw4xzgIdedY9-89" edge="1">
+        <mxCell id="CNbgSviLuuBBwOABzqil-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;" edge="1" parent="1" source="LavQA8h7Iw4xzgIdedY9-80" target="LavQA8h7Iw4xzgIdedY9-93">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LavQA8h7Iw4xzgIdedY9-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="LavQA8h7Iw4xzgIdedY9-80" target="LavQA8h7Iw4xzgIdedY9-93" edge="1">
+        <mxCell id="CNbgSviLuuBBwOABzqil-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;" edge="1" parent="1" source="LavQA8h7Iw4xzgIdedY9-80" target="LavQA8h7Iw4xzgIdedY9-89">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1040" y="965" />
-              <mxPoint x="1040" y="1225" />
+              <mxPoint x="695.25" y="381" />
+              <mxPoint x="695.25" y="616" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="LavQA8h7Iw4xzgIdedY9-80" value="" style="rounded=0;whiteSpace=wrap;html=1;perimeterSpacing=3;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="745.75" y="870" width="254.25" height="190" as="geometry" />
+          <mxGeometry x="359.75" y="286" width="254.25" height="190" as="geometry" />
         </mxCell>
         <mxCell id="LavQA8h7Iw4xzgIdedY9-81" value="Bayesian E Step" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;" parent="1" vertex="1">
-          <mxGeometry x="745.75" y="870" width="100" height="30" as="geometry" />
+          <mxGeometry x="359.75" y="286" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="LavQA8h7Iw4xzgIdedY9-84" value="ResponsibilitiesStep" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="797" y="935" width="160" height="60" as="geometry" />
+          <mxGeometry x="411" y="351" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="LavQA8h7Iw4xzgIdedY9-85" value="- is_soft: bool = true" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="LavQA8h7Iw4xzgIdedY9-84" vertex="1">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
@@ -104,46 +104,40 @@
           <mxGeometry y="52" width="160" height="8" as="geometry" />
         </mxCell>
         <mxCell id="LavQA8h7Iw4xzgIdedY9-89" value="" style="rounded=0;whiteSpace=wrap;html=1;perimeterSpacing=3;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1080" y="860" width="230" height="210" as="geometry" />
+          <mxGeometry x="775.25" y="511" width="270" height="180" as="geometry" />
         </mxCell>
         <mxCell id="LavQA8h7Iw4xzgIdedY9-90" value="Maximization M Step" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;" parent="1" vertex="1">
-          <mxGeometry x="1080" y="860" width="130" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="LavQA8h7Iw4xzgIdedY9-91" value="GeneralizedStep" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="1140" y="940" width="110" height="50" as="geometry" />
+          <mxGeometry x="775.25" y="511" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="LavQA8h7Iw4xzgIdedY9-93" value="" style="rounded=0;whiteSpace=wrap;html=1;perimeterSpacing=3;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1080" y="1120" width="320" height="210" as="geometry" />
+          <mxGeometry x="775.25" y="210" width="320" height="210" as="geometry" />
         </mxCell>
         <mxCell id="LavQA8h7Iw4xzgIdedY9-94" value="Moments M Step" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;" parent="1" vertex="1">
-          <mxGeometry x="1080" y="1120" width="130" height="30" as="geometry" />
+          <mxGeometry x="775.25" y="210" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="LavQA8h7Iw4xzgIdedY9-95" value="CMoments" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="1120" y="1180" width="110" height="50" as="geometry" />
+          <mxGeometry x="815.25" y="270" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="LavQA8h7Iw4xzgIdedY9-96" value="TLMoments" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="1250" y="1180" width="110" height="50" as="geometry" />
+          <mxGeometry x="945.25" y="270" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="LavQA8h7Iw4xzgIdedY9-97" value="LQMoments" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="1120" y="1250" width="110" height="50" as="geometry" />
+          <mxGeometry x="815.25" y="340" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="LavQA8h7Iw4xzgIdedY9-98" value="&lt;div&gt;LMoments&lt;/div&gt;" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="1250" y="1250" width="110" height="50" as="geometry" />
+          <mxGeometry x="945.25" y="340" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="LavQA8h7Iw4xzgIdedY9-100" value="" style="rounded=0;whiteSpace=wrap;html=1;perimeterSpacing=3;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="460" y="1110" width="220" height="150" as="geometry" />
+          <mxGeometry x="74" y="526" width="220" height="150" as="geometry" />
         </mxCell>
         <mxCell id="LavQA8h7Iw4xzgIdedY9-101" value="Non Iterative Maximization" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;" parent="1" vertex="1">
-          <mxGeometry x="460" y="1110" width="160" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="LavQA8h7Iw4xzgIdedY9-103" value="MLE" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="515" y="1170" width="110" height="50" as="geometry" />
+          <mxGeometry x="74" y="526" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="LavQA8h7Iw4xzgIdedY9-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=diamond;endFill=0;endSize=9;" parent="1" source="LavQA8h7Iw4xzgIdedY9-110" target="LavQA8h7Iw4xzgIdedY9-39" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="LavQA8h7Iw4xzgIdedY9-110" value="&lt;div&gt;&amp;lt;&amp;lt;Abstract&amp;gt;&amp;gt;&lt;/div&gt;&lt;div&gt;BaseBreakpointer&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=41;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1030" y="277.5" width="160" height="75" as="geometry" />
+          <mxGeometry x="794" y="-362.5" width="160" height="75" as="geometry" />
         </mxCell>
         <mxCell id="LavQA8h7Iw4xzgIdedY9-112" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="LavQA8h7Iw4xzgIdedY9-110" vertex="1">
           <mxGeometry y="41" width="160" height="8" as="geometry" />
@@ -155,7 +149,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="LavQA8h7Iw4xzgIdedY9-114" value="&lt;div&gt;&amp;lt;&amp;lt;Abstract&amp;gt;&amp;gt;&lt;/div&gt;&lt;div&gt;BasePruner&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=41;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1030" y="365.5" width="160" height="75" as="geometry" />
+          <mxGeometry x="794" y="-274.5" width="160" height="75" as="geometry" />
         </mxCell>
         <mxCell id="LavQA8h7Iw4xzgIdedY9-115" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="LavQA8h7Iw4xzgIdedY9-114" vertex="1">
           <mxGeometry y="41" width="160" height="8" as="geometry" />
@@ -164,24 +158,24 @@
           <mxGeometry y="49" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="LavQA8h7Iw4xzgIdedY9-120" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Контекст&lt;/h1&gt;&lt;div&gt;Предварительно думаю над диктами, но думаю можно и сделать отдельный датакласс&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="920" y="-229" width="180" height="96" as="geometry" />
+          <mxGeometry x="1024" y="-494.5" width="180" height="96" as="geometry" />
         </mxCell>
         <mxCell id="LavQA8h7Iw4xzgIdedY9-121" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Обработка ошибок&lt;/h1&gt;&lt;div&gt;Хранить объект эксепшена в контексте, и выходить по надобности из цикла, возвращая промежуточный результат&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="920" y="-123" width="180" height="150" as="geometry" />
+          <mxGeometry x="834" y="-659.5" width="180" height="150" as="geometry" />
         </mxCell>
         <mxCell id="LavQA8h7Iw4xzgIdedY9-122" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Логирование&lt;/h1&gt;&lt;p&gt;Сделать как в старой архитектуре.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="920" y="42" width="180" height="91.5" as="geometry" />
+          <mxGeometry x="834" y="-494.5" width="180" height="91.5" as="geometry" />
         </mxCell>
         <mxCell id="LavQA8h7Iw4xzgIdedY9-131" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;" parent="1" source="LavQA8h7Iw4xzgIdedY9-124" target="LavQA8h7Iw4xzgIdedY9-39" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1020" y="470" />
-              <mxPoint x="890" y="470" />
+              <mxPoint x="784" y="-170" />
+              <mxPoint x="654" y="-170" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="LavQA8h7Iw4xzgIdedY9-124" value="&lt;div&gt;&amp;lt;&amp;lt;Abstract&amp;gt;&amp;gt;&lt;/div&gt;&lt;div&gt;BaseInitializer&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=44;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="930" y="535" width="180" height="78" as="geometry" />
+          <mxGeometry x="694" y="-105" width="180" height="78" as="geometry" />
         </mxCell>
         <mxCell id="LavQA8h7Iw4xzgIdedY9-126" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="LavQA8h7Iw4xzgIdedY9-124" vertex="1">
           <mxGeometry y="44" width="180" height="8" as="geometry" />
@@ -189,23 +183,14 @@
         <mxCell id="LavQA8h7Iw4xzgIdedY9-127" value="&lt;i&gt;+ perform(X, dists: list): mixture&lt;/i&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="LavQA8h7Iw4xzgIdedY9-124" vertex="1">
           <mxGeometry y="52" width="180" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="LavQA8h7Iw4xzgIdedY9-129" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Композиция алгоритмов&lt;/h1&gt;&lt;div&gt;Пока хз&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1125" y="-109" width="180" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="LavQA8h7Iw4xzgIdedY9-134" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;" parent="1" source="LavQA8h7Iw4xzgIdedY9-133" target="LavQA8h7Iw4xzgIdedY9-28" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="LavQA8h7Iw4xzgIdedY9-133" value="MLE" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="1055" y="195.5" width="110" height="50" as="geometry" />
-        </mxCell>
         <mxCell id="LavQA8h7Iw4xzgIdedY9-135" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Валидация шагов&lt;/h1&gt;&lt;div&gt;Либо сделать с помощью available_next, либо с помощью валидации контрактов между шагами.&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="730" y="-117.5" width="180" height="150" as="geometry" />
+          <mxGeometry x="644" y="-654" width="180" height="150" as="geometry" />
         </mxCell>
         <mxCell id="CNbgSviLuuBBwOABzqil-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=diamond;endFill=0;endSize=9;" edge="1" parent="1" source="CNbgSviLuuBBwOABzqil-1" target="CNbgSviLuuBBwOABzqil-29">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CNbgSviLuuBBwOABzqil-1" value="&amp;lt;&amp;lt;Abstract&amp;gt;&amp;gt;&lt;div&gt;ContinuousDistribution&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="300" y="237" width="200" height="270" as="geometry" />
+          <mxGeometry x="64" y="-403" width="200" height="270" as="geometry" />
         </mxCell>
         <mxCell id="CNbgSviLuuBBwOABzqil-37" value="&lt;div&gt;&lt;i&gt;+ name: str&lt;/i&gt;&lt;/div&gt;&lt;div&gt;+ params: set&lt;/div&gt;&lt;div&gt;+ fixed_params: set&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="CNbgSviLuuBBwOABzqil-1">
           <mxGeometry y="40" width="200" height="50" as="geometry" />
@@ -220,7 +205,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CNbgSviLuuBBwOABzqil-29" value="MixtureModel" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="560" y="282" width="160" height="180" as="geometry" />
+          <mxGeometry x="324" y="-358" width="160" height="180" as="geometry" />
         </mxCell>
         <mxCell id="CNbgSviLuuBBwOABzqil-30" value="&lt;div&gt;+ components: list&lt;/div&gt;&lt;div&gt;+ weights:&amp;nbsp;&lt;i&gt;ndarray&lt;/i&gt;&lt;/div&gt;&lt;div&gt;- logits:&amp;nbsp;&lt;i&gt;ndarray&lt;/i&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="CNbgSviLuuBBwOABzqil-29">
           <mxGeometry y="26" width="160" height="54" as="geometry" />
@@ -235,7 +220,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CNbgSviLuuBBwOABzqil-52" value="Parameter" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="30" y="287" width="210" height="170" as="geometry" />
+          <mxGeometry x="-206" y="-353" width="210" height="170" as="geometry" />
         </mxCell>
         <mxCell id="CNbgSviLuuBBwOABzqil-53" value="&lt;div&gt;- transform: Callable&lt;/div&gt;&lt;div&gt;- inverse_transform: Callable&lt;/div&gt;&lt;div&gt;- name: str&lt;/div&gt;&lt;div&gt;- internal_name: str&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="CNbgSviLuuBBwOABzqil-52">
           <mxGeometry y="26" width="210" height="74" as="geometry" />
@@ -253,25 +238,94 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CNbgSviLuuBBwOABzqil-58" value="&lt;div&gt;Estimation&lt;/div&gt;&lt;div&gt;Strategies&lt;/div&gt;" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="350" y="549" width="100" height="50" as="geometry" />
+          <mxGeometry x="114" y="-91" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="CNbgSviLuuBBwOABzqil-60" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Что за стратегии?&lt;/h1&gt;&lt;div&gt;Для каждого шага оценки параметров создаем целевую функцию с помощью @singledispatch, реализуем внутри логику для тех распределений, для которых нет перегруженной функции.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Для каждого распределения можем сделать свою функцию оценки параметров, и добавить в реестр. Внутри можно даже учитывать фиксированные параметры!&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Там же можно делать проверку на применимость метода к распределению!&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry y="494" width="290" height="230" as="geometry" />
+          <mxGeometry x="-236" y="-146" width="290" height="230" as="geometry" />
         </mxCell>
         <mxCell id="CNbgSviLuuBBwOABzqil-61" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Что должен уметь?&lt;/h1&gt;&lt;ul&gt;&lt;li&gt;Иметь имя для внешних и внутренних параметров (например mu и _mu)&lt;/li&gt;&lt;li&gt;Если обновили внешний параметр, лениво грузить внутренний и наоборот. Конечно надо хранить оба&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-320" y="293.5" width="307" height="131" as="geometry" />
+          <mxGeometry x="-556" y="-346.5" width="307" height="131" as="geometry" />
         </mxCell>
         <mxCell id="CNbgSviLuuBBwOABzqil-62" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Список стратегий&lt;/h1&gt;&lt;div&gt;q_function_strategy&lt;/div&gt;&lt;div&gt;likelihood_strategy&lt;/div&gt;&lt;div&gt;moments_strategy&lt;/div&gt;&lt;div&gt;l_moments_strategy&lt;/div&gt;&lt;div&gt;tl_moments_strategy&lt;/div&gt;&lt;div&gt;lq_moments_strategy&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry y="750" width="350" height="150" as="geometry" />
+          <mxGeometry x="-236" y="110" width="350" height="150" as="geometry" />
         </mxCell>
         <mxCell id="CNbgSviLuuBBwOABzqil-64" value="Здесь можно передавать X и W, и не считать лишние моменты!" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="120" y="840.5" width="200" height="30" as="geometry" />
+          <mxGeometry x="-116" y="200.5" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="CNbgSviLuuBBwOABzqil-69" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;font&gt;Осталось&lt;/font&gt;&lt;/h1&gt;&lt;ul&gt;&lt;li&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;Понять как адекватно сделать таблицу Распределение-Шаг&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;Понять как применить цепь шагов на каждой компоненте отдельно&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;Понять как делать fallback для некоторых компонент в случае невозможности оценки параметров этим методом. Можно подумать над тем, стоит ли в случае эксепшена фоллбекаться дальше по приоритетам.&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;Как сделать GeneralizedStep. Сюда входит разбиение множества параметров, их нормальная синхронизация с остальными пунктами.&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-60" y="-196.5" width="780" height="380" as="geometry" />
+        <mxCell id="CNbgSviLuuBBwOABzqil-69" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Что пока не внедрено:&lt;/h1&gt;&lt;ul&gt;&lt;li&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;Применение цепи шагов на каждой компоненте отдельно и оответственно распараллеливание.&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;Fallback для некоторых компонент в случае невозможности оценки параметров этим методом. Можно подумать над тем, стоит ли в случае эксепшена фоллбекаться дальше по приоритетам.&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;Шаг обобщённой оптимизации GeneralMaximization.&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;Дискретные распределения&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;Многомерные распределения&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-306" y="-870" width="780" height="330" as="geometry" />
         </mxCell>
         <mxCell id="CNbgSviLuuBBwOABzqil-74" value="Parameters" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="515" y="549" width="57.5" height="15" as="geometry" />
+          <mxGeometry x="279" y="-91" width="57.5" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="CNbgSviLuuBBwOABzqil-82" value="ComponentMaximization" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="805.25" y="581" width="190" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="CNbgSviLuuBBwOABzqil-85" value="- blocks: list[OptimizationBlock]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="CNbgSviLuuBBwOABzqil-82">
+          <mxGeometry y="26" width="190" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="CNbgSviLuuBBwOABzqil-84" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="CNbgSviLuuBBwOABzqil-82">
+          <mxGeometry y="50" width="190" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="CNbgSviLuuBBwOABzqil-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=diamond;endFill=0;endSize=9;" edge="1" parent="1" source="CNbgSviLuuBBwOABzqil-86" target="CNbgSviLuuBBwOABzqil-90">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CNbgSviLuuBBwOABzqil-86" value="&lt;div&gt;OptimizationTarget&amp;nbsp;(Enum)&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="355.2499999999999" y="708" width="170" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="CNbgSviLuuBBwOABzqil-87" value="&lt;div&gt;+ Q_FUNCTION&lt;/div&gt;&lt;div&gt;+ LIKELIHOOD&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="CNbgSviLuuBBwOABzqil-86">
+          <mxGeometry y="26" width="170" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="CNbgSviLuuBBwOABzqil-88" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="CNbgSviLuuBBwOABzqil-86">
+          <mxGeometry y="70" width="170" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="CNbgSviLuuBBwOABzqil-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=diamond;endFill=0;endSize=9;" edge="1" parent="1" source="CNbgSviLuuBBwOABzqil-90" target="LavQA8h7Iw4xzgIdedY9-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CNbgSviLuuBBwOABzqil-90" value="&lt;div&gt;OptimizationBlock&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="482.2499999999999" y="557" width="190" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="CNbgSviLuuBBwOABzqil-91" value="&lt;div&gt;+ parameters:&amp;nbsp; list[ParameterId]&lt;/div&gt;&lt;div&gt;+ target: OptimizationTarget&lt;/div&gt;&lt;div&gt;- optimizer: ScipyOptimizer&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="CNbgSviLuuBBwOABzqil-90">
+          <mxGeometry y="26" width="190" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="CNbgSviLuuBBwOABzqil-92" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="CNbgSviLuuBBwOABzqil-90">
+          <mxGeometry y="80" width="190" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="CNbgSviLuuBBwOABzqil-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=diamond;endFill=0;endSize=9;" edge="1" parent="1" source="CNbgSviLuuBBwOABzqil-101" target="LavQA8h7Iw4xzgIdedY9-100">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CNbgSviLuuBBwOABzqil-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endSize=9;endArrow=diamond;endFill=0;" edge="1" parent="1" source="CNbgSviLuuBBwOABzqil-101" target="CNbgSviLuuBBwOABzqil-90">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CNbgSviLuuBBwOABzqil-101" value="&lt;div&gt;&amp;lt;&amp;lt;Abstract&amp;gt;&amp;gt;&lt;/div&gt;&lt;div&gt;ScipyOptimizer&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="335.25" y="576" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="CNbgSviLuuBBwOABzqil-106" value="MLE" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="104" y="580" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CNbgSviLuuBBwOABzqil-107" value="+ optimizer: ScipyOptimizer" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="CNbgSviLuuBBwOABzqil-106">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CNbgSviLuuBBwOABzqil-108" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="CNbgSviLuuBBwOABzqil-106">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="CNbgSviLuuBBwOABzqil-118" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=diamond;endFill=0;endSize=9;" edge="1" parent="1" source="CNbgSviLuuBBwOABzqil-114" target="CNbgSviLuuBBwOABzqil-90">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CNbgSviLuuBBwOABzqil-114" value="ParameterId" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="612.25" y="708" width="163" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="CNbgSviLuuBBwOABzqil-115" value="&lt;div&gt;+ component_id: int&lt;/div&gt;&lt;div&gt;+ param_name: str&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="CNbgSviLuuBBwOABzqil-114">
+          <mxGeometry y="26" width="163" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="CNbgSviLuuBBwOABzqil-116" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="CNbgSviLuuBBwOABzqil-114">
+          <mxGeometry y="70" width="163" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="CNbgSviLuuBBwOABzqil-119" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;ComponentMaximization&lt;/h1&gt;&lt;div&gt;Здесь обязательно в __init__ происходит проверка на то, что заморозки параметров происходят только внутри компонент (то есть нет блоков таких, что у них есть ParameterId с различными номерами компонент)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Это упрощение было сделано сознательно, чтобы внедрить параллелизм на уровне оптимизации параметров. В более общем случае не знаю как это должно работать, наверное нужно будет делать отдельный класс GeneralMaximization&lt;/div&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1084" y="495" width="300" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="CNbgSviLuuBBwOABzqil-120" value="&lt;font style=&quot;font-size: 62px;&quot;&gt;ДЕРЕВО ШАГОВ&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="154" y="160" width="600" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
