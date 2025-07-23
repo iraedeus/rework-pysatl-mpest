@@ -1,11 +1,19 @@
 pysatl-mpest/
-└── algorithms/
-    ├── iterative_estimator
-    ├── breakpointers/
-    ├── initializers/
-    ├── pruners/
-    └── steps/
-        ├── expectation_steps/
-        ├── maximization_steps/
-        └── moments_steps/
-
+├── algorithms/
+│   ├── base_estimator.py
+│   ├── estimator_step.py
+│   ├── iterative_estimator.py
+│   ├── breakpointers/
+│   ├── initializers/
+│   ├── pruners/
+│   ├── steps/
+│   │   ├── expectation_steps/
+│   │   ├── maximization_steps/
+│   │   └── moments_steps/
+│   └── strategies/
+│
+└── mpest_core/
+    ├── continuous_dist.py
+    ├── mixture_model.py
+    ├── parameter.py
+    └── distributions/
